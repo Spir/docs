@@ -126,6 +126,8 @@ Define the controller class and store it in **controllers/admin/panel.php**.
 		}
 
 	}
+	
+> **Note:** The nested controller MUST have the name of the folder in its class name as a prefix.
 
 #### Register the nested controller with the router using "dot" syntax:
 
